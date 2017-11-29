@@ -1,3 +1,9 @@
+
+header {
+  text-align: center;
+  background: url(http://www.centerforebt.com/wp-content/uploads/2016/09/Quiet-Stillness.jpg);
+  background-size: cover;
+}
 h1 {
 font-family: 'Londrina Shadow', cursive;
  font-size: 60px;
