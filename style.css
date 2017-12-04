@@ -38,7 +38,26 @@ p {
     line-height: 24px;
   }
 }
-.form-group {
+#contactUs .form-group {
   width: 50%;
   margin: auto;
+}
+#contactUs .form-group .btn {
+  float: right;
+  margin-top: 10px
+}
+#contactUs p {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }

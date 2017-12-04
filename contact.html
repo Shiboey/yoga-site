@@ -37,19 +37,23 @@
 
 <h1>Get in Touch</h1>
 
-<div>
+<div id="contactUs" class="container">
+	<p>If you would like to get in touch, please send a message using the form below</p>
 	<form>
   <div class="form-group">
     <label class="col-form-label" for="nameInputField">Name</label>
-    <input type="text" class="form-control" id="nameInputField" placeholder="Name">
+    <input type="text" class="form-control" id="nameInputField" placeholder="Name" required maxlength="200">
   </div>
   <div class="form-group">
     <label class="col-form-label" for="emailAddressInputField">Email address</label>
-    <input type="email" class="form-control" id="emailAddressInputField" placeholder="Email address">
+    <input type="email" class="form-control" id="emailAddressInputField" placeholder="Email address" required maxlength="200">
   </div>
   <div class="form-group">
     <label class="col-form-label" for="messageInputField">Message</label>
-    <textarea class="form-control" rows="5" id="messageInputField" placeholder="Message"></textarea>
+    <textarea class="form-control" rows="5" id="messageInputField" placeholder="Message" required maxlength="5000"></textarea>
+  </div>
+  <div class="form-group">
+  <button type="submit" class="btn btn-primary">Send message</button>
   </div>
 </form>
 </div>
