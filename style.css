@@ -35,6 +35,9 @@ h2 {
 .row-sm {
   text-align: center;
 }
+.map {
+  position: relative;
+}
 .one {
   color:  #ff8533
 }
