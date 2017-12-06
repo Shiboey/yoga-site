@@ -2,11 +2,10 @@
 #header {
 position: center;
 }
-.index {
+body {
   background: url("https://www.planwallpaper.com/static/images/518164-backgrounds.jpg");
   background-size: cover;
-  opacity: .6;
-}
+  }
 .container1 {
   text-align: center;
 }
