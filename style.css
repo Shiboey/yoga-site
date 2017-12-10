@@ -71,11 +71,13 @@ img {
   width: 50%;
   margin: auto;
 }
+#contactUs .map{
+  margin: auto;
+}
 #contactUs .form-group .btn {
-  float: right;
   margin-top: 10px
 }
-#contactUs p {
+#contactUs > p {
   width: 50%;
   margin: auto;
   padding: 20px;
